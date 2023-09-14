@@ -1,0 +1,26 @@
+.navbar {
+  padding: 1rem;
+}
+
+.menu-icon {
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 850px) {
+  .menu-icon {
+    display: block;
+  }
+}
+
+/* .nav-sidebar {
+  position: fixed;
+  left: 0;
+  top: -50%;
+  height: 100vh;
+  width: 100vw;
+} */
