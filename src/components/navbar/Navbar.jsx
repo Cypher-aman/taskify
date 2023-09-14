@@ -55,7 +55,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      {showSidebar && <Sidebar />}
+      {showSidebar && <Sidebar setShowSidebar={setShowSidebar} />}
     </>
   );
 };

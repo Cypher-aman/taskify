@@ -3,7 +3,7 @@ import TaskForm from "../taskForm/TaskForm";
 import { useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
-const Sidebar = () => {
+const Sidebar = ({ setShowSidebar = null }) => {
   const [showForm, setShowFrom] = useState(false);
   const [taskAdded, setTaskAdded] = useState(false);
 
@@ -21,7 +21,11 @@ const Sidebar = () => {
         <p>Create New Task</p>
       </div>
       {showForm && (
-        <TaskForm closeModal={setShowFrom} setStatus={setTaskAdded} />
+        <TaskForm
+          setShowSidebar={setShowSidebar}
+          closeModal={setShowFrom}
+          setStatus={setTaskAdded}
+        />
       )}
     </aside>
   );

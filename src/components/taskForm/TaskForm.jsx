@@ -2,7 +2,12 @@ import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { useDispatch, useSelector } from "react-redux";
 import { addTask, updateTask } from "../../reducer/reducer";
-const TaskForm = ({ type = "create", closeModal, setStatus }) => {
+const TaskForm = ({
+  type = "create",
+  closeModal,
+  setStatus,
+  setShowSidebar = null,
+}) => {
   const dispatch = useDispatch();
   const activeTask = useSelector((state) => state.task.activeTask);
 
@@ -31,6 +36,7 @@ const TaskForm = ({ type = "create", closeModal, setStatus }) => {
     if (type === "update")
       dispatch(updateTask({ ...task, dateAdded: Date.now() }));
 
+    if (setShowSidebar !== null) setShowSidebar(false);
     closeModal(false);
   };
 
