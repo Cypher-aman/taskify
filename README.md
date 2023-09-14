@@ -4,7 +4,7 @@ Taskify is a user-friendly task management app that streamlines your daily produ
 
 ## Live Link
 
-[Visit Taskify App](https://www.taskifyapp.com)
+[Visit Taskify App](https://taskify-project-app.netlify.app/)
 
 ## Snapshots
 
@@ -27,7 +27,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the Taskify repository to your local machine:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Cypher-aman/taskify.git
    cd taskify
 
    ```
