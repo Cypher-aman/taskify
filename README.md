@@ -6,6 +6,15 @@ Taskify is a user-friendly task management app that streamlines your daily produ
 
 [Visit Taskify App](https://www.taskifyapp.com)
 
+## Snapshots
+
+1. Desktop
+
+
+![Desktop Light Mode](https://github.com/Cypher-aman/taskify/assets/71575102/e1222bb0-42fc-49f6-b1d4-c175841f132a)
+
+![Desktop Dark Mode](https://github.com/Cypher-aman/taskify/assets/71575102/c894dc32-b4b4-4cfe-b5c2-e425bc2d231b)
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
